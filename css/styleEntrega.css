@@ -1,0 +1,363 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.centrarTexto{
+    text-align: center;
+}
+
+.derechaTexto{
+    text-align: right;
+}
+
+.colorTexto{
+    color:#2ecc71;
+}
+
+p, h1, h2, h3{
+    color: white;
+    outline-color: black;
+}
+
+body{
+    width:auto;
+    max-width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+main {
+    width:auto;
+    max-width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+section {
+    width:auto;
+    max-width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 15px;;
+}
+
+footer{
+    background-color:#2ecc71;
+    padding: 20px;
+    margin-top: 15px;
+    position:static;
+    bottom: 0;
+    width: auto;
+}
+
+.seccion_dark{
+    background-image:url("../images/fondo3.png");
+    background-color: black;
+    background-size:cover;
+}
+
+.flexCentrar{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+}
+
+.padre-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.banner1{
+    background-image:url("../images/Mangas_raw.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 600px;
+    margin: 20px;
+}
+
+.banner2{
+    background-image:url("../images/comics_raww.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 600px;
+    margin: 20px;
+}
+
+.banner3{
+    background-image:url("../images/accesorios_raw.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 600px;
+    margin: 20px;
+}
+
+.bannerLogo{
+    background-image: url("../images/BannerLogo.png");
+    background-position: center;
+    width: 1000px;
+    height: 234px;
+    margin: 50px;
+}
+
+.bannerMarca1{
+    background-image:url("../images/ivrea.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.bannerMarca2{
+    background-image:url("../images/ovnipress.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.bannerMarca3{
+    background-image:url("../images/panini.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.bannerMarca4{
+    background-image:url("../images/barroeditora.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.bannerMarca5{
+    background-image:url("../images/hoteldelasideas.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.bannerMarca6{
+    background-image:url("../images/locorabia.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.bannerMarca7{
+    background-image:url("../images/Aaccesorios.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+}
+
+.bannerMarca8{
+    background-image:url("../images/Aclothing.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+}
+
+.bannerMarca9{
+    background-image:url("../images/Afiguras.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+}
+
+.bannerImagenManga1{
+    background-image: url("../images/bannerManga.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 300px;
+    margin: 20px;
+}
+
+.bannerImagenManga2{
+    background-image: url("../images/bannerManga2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 300px;
+    margin: 20px;
+
+}.bannerImagenManga3{
+    background-image: url("../images/bannerManga3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 300px;
+    margin: 20px;
+}
+
+.bannerImagenComic1{
+    background-image: url("../images/bannerComic1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 300px;
+    margin: 20px;
+}
+
+.bannerImagenComic2{
+    background-image: url("../images/bannerComic2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 300px;
+    margin: 20px;
+}
+
+.bannerImagenComic3{
+    background-image: url("../images/bannerComic3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 300px;
+    margin: 20px;
+}
+
+.bannerImagenComic4{
+    background-image: url("../images/bannerComic4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 300px;
+    margin: 20px;
+}
+
+.bannerImagenComic5{
+    background-image: url("../images/bannerComic5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 300px;
+    margin: 20px;
+}
+
+.bannerImagenComic6{
+    background-image: url("../images/bannerComic6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 300px;
+    margin: 20px;
+}
+
+.bannerImagenAccesorios1{
+    background-image: url("../images/bannerAccesorio1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 1200px;
+    margin: 20px; 
+}
+
+.bannerImagenAccesorios2{
+    background-image: url("../images/bannerAccesorio2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 1200px;
+    margin: 20px; 
+}
+
+.bannerImagenAccesorios3{
+    background-image: url("../images/bannerAccesorio3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 1200px;
+    margin: 20px; 
+}
+
+.bannerTexto{
+    width:300px;
+    height: auto;
+    margin: 20px;
+}
+
+.aBannerPrincipal{
+    display:block;
+    width: 1000px;
+    height: 234px;
+    margin: 50px;
+}
+
+.aBanner{
+    display:block;
+    width: 300px;
+    height: 600px;
+    margin: 20px;
+}
+
+.links:hover{
+    color: white;
+    box-shadow: inset 250px 0 0 0 #54b3d6;
+}
+
+.cajaDestacada{
+    background:black;
+    padding:15px 15px 20px 15px;
+    text-align: left;
+}
+
+.cajaDestacadaPrueba{
+    background:black;
+    padding:15px 15px 20px 15px;
+}

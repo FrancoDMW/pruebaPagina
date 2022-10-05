@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+header{
+    background-color:violet;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+footer{
+    background-color:violet;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+}
+
+nav{
+    background-color: brown;
+    padding: 25px;
+    width:25%;
+    margin-right: 5px;
+}
+
+aside{
+    background-color: burlywood;
+    padding: 25px;
+    width: 15%;
+    margin-right: 5px;
+}
+
+article{
+    background-color: cadetblue;
+    padding: 25px;
+    width: 60%;
+}
